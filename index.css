@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+* {
+  margin: 0;
+  color: #ffffff;
+}
+.black {
+  color: black;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+}
+/* header------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.header {
+  width: 100vw;
+  height: 104px;
+}
+.header-container {
+  width: 1280px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-container {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Sora";
+  font-style: "Sora";
+  width: 139.91px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.taskbar {
+  color: black;
+  font-family: "Sora";
+  font-optical-sizing: auto;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 20px;
+}
+.taskbar-container {
+  width: 437px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  background-color: black;
+  width: 153px;
+  height: 56px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Sora";
+  font-style: "Sora" sans-serif;
+  color: white;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------header*/
+
+/* intro------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.intro {
+  width: 100vw;
+  height: 716px;
+  position: relative;
+}
+.intro-container {
+  width: 1280px;
+  height: 596px;
+  display: flex;
+  position: relative;
+}
+.intro-text {
+  font-style: "Sora" sans-serif;
+  font-family: "Sora";
+}
+.intro-text-container{
+    width: 600px;
+    height: 376px;
+}
+.intro-text-layout{
+    width: 600px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro-text-title{
+    width: 600px;
+    height: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro-text-regular {
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  line-height: 56px;
+}
+.intro-text-bold {
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 56px;
+}
+.intro-text-outlined-bold {
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  line-height: 56px;
+  text-shadow: 2px 2px 0 black, -2px -2px 0 black, -2px 2px 0 black,
+    2px -2px 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 0 0 black,
+    -2px 0 0 black, 3px 3px 0 black, -3px -3px 0 black, -3px 3px 0 black,
+    3px -3px 0 black;
+    
+}
+.intro-text-sub {
+  color: #71717a;
+  font-family: "Sora";
+  font-style: "Sora";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.intro-img{
+    position: absolute;
+    right: 0;
+    margin-right: 32px;
+}
+.intro-btn{
+    width: 56px;
+    height: 56px;
+    border-radius: 4px;
+}
+.intro-btn-container{
+    width: 320px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------intro*/
