@@ -38,6 +38,10 @@
   height: 40px;
   display: flex;
   justify-content: space-around;
+  padding-left: 32px;
+}
+.btn-container {
+  padding-right: 32px;
 }
 .taskbar {
   color: black;
@@ -73,7 +77,7 @@
 }
 .intro-container {
   width: 1280px;
-  height: 596px;
+  height: 630px;
   display: flex;
   position: relative;
 }
@@ -81,23 +85,23 @@
   font-style: "Sora" sans-serif;
   font-family: "Sora";
 }
-.intro-text-container{
-    width: 600px;
-    height: 376px;
+.intro-text-container {
+  width: 600px;
+  height: 376px;
 }
-.intro-text-layout{
-    width: 600px;
-    height: 336px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.intro-text-layout {
+  width: 600px;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.intro-text-title{
-    width: 600px;
-    height: 208px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.intro-text-title {
+  width: 600px;
+  height: 208px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .intro-text-regular {
   font-size: 48px;
@@ -116,11 +120,19 @@
   font-weight: bold;
   color: white;
   line-height: 56px;
-  text-shadow: 2px 2px 0 black, -2px -2px 0 black, -2px 2px 0 black,
-    2px -2px 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 0 0 black,
-    -2px 0 0 black, 3px 3px 0 black, -3px -3px 0 black, -3px 3px 0 black,
+  text-shadow:
+    2px 2px 0 black,
+    -2px -2px 0 black,
+    -2px 2px 0 black,
+    2px -2px 0 black,
+    0 2px 0 black,
+    0 -2px 0 black,
+    2px 0 0 black,
+    -2px 0 0 black,
+    3px 3px 0 black,
+    -3px -3px 0 black,
+    -3px 3px 0 black,
     3px -3px 0 black;
-    
 }
 .intro-text-sub {
   color: #71717a;
@@ -130,20 +142,94 @@
   font-size: 16px;
   line-height: 24px;
 }
-.intro-img{
-    position: absolute;
-    right: 0;
-    margin-right: 32px;
+.intro-img {
+  position: absolute;
+  right: 0;
+  margin-right: 32px;
 }
-.intro-btn{
-    width: 56px;
-    height: 56px;
-    border-radius: 4px;
+.intro-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 4px;
 }
-.intro-btn-container{
-    width: 320px;
-    height: 64px;
-    display: flex;
-    justify-content: space-between;
+.intro-btn-container {
+  width: 320px;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------intro*/
+
+/* skill------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.skill {
+  width: 100vw;
+  height: 728px;
+}
+.skill-container {
+  width: 1280px;
+  height: 608px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.skill-title {
+  width: 1216px;
+  height: 96px;
+}
+.skill-title-my {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Sora";
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: black;
+}
+.skill-title-skills {
+  font-size: 48px;
+  font-weight: 800;
+  font-family: "Sora";
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: black;
+}
+.skill-button-outer-container {
+  width: 1216px;
+  height: 492px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.skill-button-container-top {
+  display: flex;
+  justify-content: space-between;
+}
+.skill-button-container-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.skill-button {
+  width: 186px;
+  height: 186px;
+  border-radius: 4px;
+  border: 2px solid black;
+  background-color: white;
+}
+.skill-button-img {
+  margin-bottom: 32px;
+}
+.skill-button-content {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Sora";
+  font-style: "Sora";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------skill*/
