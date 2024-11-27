@@ -38,11 +38,9 @@
   height: 40px;
   display: flex;
   justify-content: space-around;
-  padding-left: 32px;
+  margin-left: 32px;
 }
-.btn-container {
-  padding-right: 32px;
-}
+
 .taskbar {
   color: black;
   font-family: "Sora";
@@ -66,6 +64,7 @@
   font-family: "Sora";
   font-style: "Sora" sans-serif;
   color: white;
+  margin-right: 32px;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------header*/
 
@@ -81,6 +80,13 @@
   display: flex;
   position: relative;
 }
+.intro-text-container-layout{
+  width: 1280px;
+  height: 630px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 .intro-text {
   font-style: "Sora" sans-serif;
   font-family: "Sora";
@@ -88,6 +94,7 @@
 .intro-text-container {
   width: 600px;
   height: 376px;
+  margin-left: 32px;
 }
 .intro-text-layout {
   width: 600px;
@@ -120,18 +127,9 @@
   font-weight: bold;
   color: white;
   line-height: 56px;
-  text-shadow:
-    2px 2px 0 black,
-    -2px -2px 0 black,
-    -2px 2px 0 black,
-    2px -2px 0 black,
-    0 2px 0 black,
-    0 -2px 0 black,
-    2px 0 0 black,
-    -2px 0 0 black,
-    3px 3px 0 black,
-    -3px -3px 0 black,
-    -3px 3px 0 black,
+  text-shadow: 2px 2px 0 black, -2px -2px 0 black, -2px 2px 0 black,
+    2px -2px 0 black, 0 2px 0 black, 0 -2px 0 black, 2px 0 0 black,
+    -2px 0 0 black, 3px 3px 0 black, -3px -3px 0 black, -3px 3px 0 black,
     3px -3px 0 black;
 }
 .intro-text-sub {
@@ -151,6 +149,18 @@
   width: 56px;
   height: 56px;
   border-radius: 4px;
+  transition: 0.3s;
+}
+.intro-btn:hover {
+  background-color: black;
+}
+.intro-btn-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+.intro-btn:hover .intro-btn-img {
+  background-color: white;
 }
 .intro-btn-container {
   width: 320px;
@@ -159,6 +169,7 @@
   justify-content: space-between;
   position: absolute;
   bottom: 0;
+  margin-left: 32px;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------intro*/
 
@@ -172,7 +183,7 @@
   height: 608px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .skill-title {
   width: 1216px;
@@ -199,21 +210,35 @@
   height: 492px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .skill-button-container-top {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  height: 226px;
 }
 .skill-button-container-bottom {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  height: 226px;
 }
 .skill-button {
   width: 186px;
   height: 186px;
   border-radius: 4px;
   border: 2px solid black;
+  background-color: white;
+  transition: 0.3s;
+}
+.skill-button:hover {
+  background-color: black;
+}
+.skill-button:hover .skill-button-content {
+  color: white;
+}
+.skill-button:hover .skill-button-img {
   background-color: white;
 }
 .skill-button-img {
@@ -233,3 +258,15 @@
   text-align: center;
 }
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------------------skill*/
+
+/* exp------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .exp{
+    width: 100vw;
+    height: 956px;
+    background-color: black;
+  }
+  .exp-container{
+    width: 1280px;
+    height: 836px;
+  }
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------exp*/
